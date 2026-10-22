@@ -1,0 +1,17 @@
+A language model learns to predict the next token in a sequence. A transformer uses self-attention to combine information from earlier tokens. Causal attention prevents a token from attending to future tokens.
+
+Python is a general-purpose programming language. A function groups reusable behavior, and a module organizes related code. Lists preserve order, dictionaries map keys to values, and sets store unique elements.
+
+A linked list contains nodes connected by references. A stack follows last-in first-out order, while a queue follows first-in first-out order. Binary search repeatedly halves the search interval in a sorted collection.
+
+An operating system manages processes, memory, files, and devices. Virtual memory maps process addresses to physical memory. Deadlock can occur when processes wait for resources held by one another.
+
+A database stores information. SQL uses SELECT to retrieve rows, WHERE to filter them, GROUP BY to aggregate them, and JOIN to combine tables. A primary key uniquely identifies a row.
+
+Computer networks send information in packets. IP addresses identify network interfaces. TCP provides reliable ordered delivery, while UDP sends datagrams without guaranteeing delivery. DNS maps domain names to records.
+
+Machine learning models learn patterns from examples. Training adjusts parameters to reduce a loss function. Overfitting occurs when a model fits training examples but generalizes poorly to new examples.
+
+A neural network contains layers of learned transformations. Backpropagation calculates gradients and an optimizer updates parameters. An embedding maps a token ID to a vector. Softmax converts logits into probabilities.
+
+Good documentation explains a program's purpose, setup, usage, and limitations. Reproducible experiments record configuration, dataset preparation, and random seeds.

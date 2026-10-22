@@ -1,0 +1,28 @@
+seed: 42
+data:
+  input_path: data/input.txt
+  train_path: artifacts/train_tokens.pt
+  val_path: artifacts/val_tokens.pt
+  validation_fraction: 0.1
+tokenizer:
+  encoding_name: cl100k_base
+model:
+  context_length: 64
+  d_model: 64
+  n_heads: 4
+  n_layers: 2
+  dropout: 0.0
+  tie_embeddings: true
+training:
+  batch_size: 2
+  max_steps: 3
+  eval_interval: 1
+  eval_batches: 2
+  learning_rate: 0.0003
+  min_learning_rate: 0.00003
+  weight_decay: 0.1
+  output_dir: checkpoints
+generation:
+  max_new_tokens: 30
+  temperature: 0.8
+  top_k: 20
